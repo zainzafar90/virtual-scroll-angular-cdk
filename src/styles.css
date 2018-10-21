@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(assets/images/icons-background.svg);
+    background-color: #507ce8;
+    color: #fff;
+    overflow: hidden;
+}
+
+ul {
+    max-width: 500px;
+    color: #333;
+    list-style: none;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.list li {
+    padding: 25px;
+    background: #FAFAAF;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.center {
+    text-align: center;
+}
